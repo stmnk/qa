@@ -8,4 +8,4 @@ For more information about how data was collected see the [README.md](data/READM
 
 ### Data Wrangling
 
-The dataset has been reduced to a manageable size during local development.The pipelines are described in the [NQ-dataset-sample.ipynb](data/NQ-dataset-sample.ipynb) notebook. 
+The dataset has been reduced to a manageable size during local development.The pipelines are described in the [NQ-dataset-sample.ipynb](data/sample/NQ-dataset-sample.ipynb) notebook. 
