@@ -26,3 +26,30 @@ git add .gitattributes
 ```
 
 Further information about installing `git-lfs` can be found [here](https://git-lfs.github.com/). 
+
+## Work with the NQ dataset in a cloud environment
+
+It is possible to work with the dataset in a cloud environment.
+
+### Colab 
+
+Upload the full dataset in simplified format (~4.7GB) to Google Drive. Use the following steps to load the .jsonl files into a dataframe. 
+
+Mount the Google Drive content into the Jupyter Notebook.
+
+```python
+from google.colab import drive
+DRIVE_ROOT = '/content/drive'
+drive.mount(DRIVE_ROOT)
+```
+Authenticate to your drive account.
+
+A pre-processing step (used in [2]) that reduces the size a bit eliminates data for questions that do not have an answer. Further data wrangling steps are described in the [NQ-dataset-sample.ipynb](NQ-dataset-sample.ipynb) notebook.
+
+The unsimplified format of NQ has ~47GB and therefore exceeds the 15GB upper limit of a free plan for Google Drive. 
+
+### AWS
+
+#### S3
+
+TODO: add info
