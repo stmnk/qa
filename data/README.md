@@ -33,7 +33,7 @@ It is possible to work with the dataset in a cloud environment.
 
 ### Colab 
 
-Upload the full dataset in simplified format (~4.7GB) to Google Drive. Use the following steps to load the .jsonl files into a dataframe. 
+Upload the full dataset in simplified format (~4.7GB) to Google Drive. Use the following steps to load the `.jsonl` files into a dataframe. 
 
 Mount the Google Drive content into the Jupyter Notebook.
 
