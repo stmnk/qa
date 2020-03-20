@@ -1,3 +1,9 @@
+# ignore some local data 
+#( because the 1GB limit for github large file extension is already 104% exceeded)
+data/v1.0-simplified_simplified-nq-train.jsonl.gz
+data/v1.0-simplified_simplified-nq-train.jsonl
+data/dev/nq-dev-00.jsonl
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
