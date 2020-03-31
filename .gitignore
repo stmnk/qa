@@ -1,8 +1,8 @@
 # ignore some local data 
 #( because the 1GB limit for github large file extension is already 104% exceeded)
-data/v1.0-simplified_simplified-nq-train.jsonl.gz
-data/v1.0-simplified_simplified-nq-train.jsonl
-data/nq_sampled_10p_no_ans.jsonl
+data/simplified/v1.0-simplified_simplified-nq-train.jsonl.gz
+data/simplified/v1.0-simplified_simplified-nq-train.jsonl
+data/simplified/nq_sampled_10p_no_ans.jsonl
 data/dev/nq-dev-00.jsonl
 
 # ignore pycharm settnings forder
