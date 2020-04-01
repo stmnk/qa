@@ -56,9 +56,12 @@ drive.mount(DRIVE_ROOT)
 
 Authenticate to your drive account.
 
-A pre-processing step (used in [2]) that reduces the size a bit eliminates data for 
-questions that do not have an answer. Further data wrangling steps are described in the 
-[NQ_dataset_sample.ipynb](sample/NQ_dataset_sample.ipynb) notebook.
+Pre-processing steps reduce the size a bit by eliminating some data (mainly 
+questions that do not have a long answer (similar to what [2] used). 
+Further data wrangling details are described in 
+[this](sample/NQ_dataset_sample.ipynb) and 
+[this](simplified/dev_data_wrangling.ipynb) 
+notebooks.
 
 The unsimplified format of NQ has ~47GB and therefore exceeds the 15GB upper limit 
 of a free plan for Google Drive.
