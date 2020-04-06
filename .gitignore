@@ -5,6 +5,8 @@ data/simplified/v1.0-simplified_simplified-nq-train.jsonl
 data/simplified/nq_sampled_10p_no_ans.jsonl
 data/simplified/nq_sampled_5p_no_ans.jsonl
 data/simplified/final_data.jsonl
+data/model/final_data_10K.jsonl
+data/model/final_data_5K.jsonl
 data/mini/nq_sampled_10p_no_ans_15K.jsonl
 data/mini/nq_sampled_10p_no_ans_25K.jsonl
 data/dev/nq-dev-00.jsonl
