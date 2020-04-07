@@ -9,7 +9,6 @@ data/simplified/final_data.jsonl.zip
 data/mini/nq_sampled_10p_no_ans_15K.jsonl
 data/mini/nq_sampled_10p_no_ans_25K.jsonl
 data/dev/nq-dev-00.jsonl
-model/data_stems.csv
 model/final_data_5K.jsonl
 
 # ignore pycharm settnings forder
@@ -147,3 +146,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/model/data_split_p_drop_html_tags.csv
+/model/data_nltk_clean.csv
+/model/data_vect_doc.csv
