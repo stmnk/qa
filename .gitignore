@@ -10,6 +10,7 @@ data/model/final_data_5K.jsonl
 data/mini/nq_sampled_10p_no_ans_15K.jsonl
 data/mini/nq_sampled_10p_no_ans_25K.jsonl
 data/dev/nq-dev-00.jsonl
+model/data_stems.csv
 
 # ignore pycharm settnings forder
 .idea/
