@@ -144,3 +144,4 @@ data/**/*.jsonl
 data/**/*.jsonl.gz
 model/*.csv
 model/*.jsonl
+!/data/work/data_boolean_la_only.jsonl
