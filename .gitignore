@@ -1,16 +1,3 @@
-# ignore some local data 
-#( because the 1GB limit for github large file extension is already 104% exceeded)
-data/simplified/v1.0-simplified_simplified-nq-train.jsonl.gz
-data/simplified/v1.0-simplified_simplified-nq-train.jsonl
-data/simplified/nq_sampled_10p_no_ans.jsonl
-data/simplified/nq_sampled_5p_no_ans.jsonl
-data/simplified/final_data.jsonl
-data/simplified/final_data.jsonl.zip
-data/mini/nq_sampled_10p_no_ans_15K.jsonl
-data/mini/nq_sampled_10p_no_ans_25K.jsonl
-data/dev/nq-dev-00.jsonl
-model/final_data_5K.jsonl
-
 # ignore pycharm settnings forder
 .idea/
 
@@ -149,3 +136,8 @@ dmypy.json
 /model/data_split_p_drop_html_tags.csv
 /model/data_nltk_clean.csv
 /model/data_vect_doc.csv
+
+# ignore some local data
+#( because the 1GB limit for github large file extension is already 104% exceeded)
+data/**/*.jsonl
+data/**/*.jsonl.gz
