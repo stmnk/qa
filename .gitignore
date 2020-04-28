@@ -139,5 +139,6 @@ dmypy.json
 
 # ignore some local data
 #( because the 1GB limit for github large file extension is already 104% exceeded)
+data/full/*
 data/**/*.jsonl
 data/**/*.jsonl.gz
