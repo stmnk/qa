@@ -145,3 +145,5 @@ data/**/*.jsonl.gz
 model/*.csv
 model/*.jsonl
 !/data/work/data_boolean_la_only.jsonl
+model/model_cpkt-1.data-00001-of-00002
+model/nq-train.tfrecords

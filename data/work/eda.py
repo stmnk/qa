@@ -14,6 +14,7 @@ PATH = '../full/v1.0/train/nq-train-??.jsonl.gz'
 
 BOOL_MARKERS = ['is', 'does', 'can', 'do', 'are', 'did', 'has', 'was']
 
+
 def process_answer_candidates(line_dict):
     """
     :param line_dict:
@@ -110,14 +111,15 @@ def filter_boolean(line):
 def q_bool_marker(line):
     bmk = ['is ', 'does ', 'can ', 'do ', 'are ', 'did ', 'has ', 'was ']
     rx = re.compile('^(' + '|'.join(bmk) + ')')
-    tgmk = ['<Ol> ', '<Ul> ', '<Li> ', '<Table> ', '<Tr> '] # TODO: add '<P> ',
+    tgmk = ['<Ol> ', '<Ul> ', '<Li> ', '<Table> ', '<Tr> ']  # TODO: add '<P> ',
     rxtg = re.compile('^(' + '|'.join(tgmk) + ')')
     return (
-        line['boolean_answer'] == 'NONE'
-        and line['short_answer_html'] == '-1'
-        and rxtg.match(line['long_answer_html']) is not None
-        and rx.match(line['question_text']) is not None
+            line['boolean_answer'] == 'NONE'
+            and line['short_answer_html'] == '-1'
+            and rxtg.match(line['long_answer_html']) is not None
+            and rx.match(line['question_text']) is not None
     )
+
 
 # TODO: builder pattern for applying filters in chain
 def filter_data(output_file_pattern, input_files_path, filter_criteria, columns_to_drop, overwrite_flag=False):
