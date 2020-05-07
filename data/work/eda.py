@@ -157,13 +157,3 @@ def main(_):
 if __name__ == "__main__":
     tf.app.run()
 
-# gzip -c work-nq-train-00-03.jsonl > work-nq-train-00-03.jsonl.gz
-# ~6K questions per file x 50 files = 300 K questions
-# boolean answers: Wrote 3798 records to my_data.jsonl
-# 4094 - 3798 = 296 (is/does)
-# 4277 - 4094 = 183 (can/do/are/did/has/was)
-# - 4277 = (lists & tables)
-
-# nq-train-00 remove all              -> 20 MB      nq-train-?? -> 1 GB
-# nq-train-00 remove annotations only -> 80 MB      nq-train-?? -> 4 GB
-
